@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  apicontagemv2normal:
+    image: apicontagemv2-normal
+    build:
+      context: .
+    ports:
+      - "10000:80"
